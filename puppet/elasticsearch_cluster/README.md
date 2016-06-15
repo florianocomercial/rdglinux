@@ -1,11 +1,10 @@
-O nosso amigo Evandro Couto" postou um excelente artigo a respeito da instalação do ElasticSearch em Cluster
+O nosso amigo "Evandro Couto" postou um excelente artigo a respeito da instalação do ElasticSearch em Cluster.
 
-http://tutoriaisgnulinux.com/?p=15842
+	Link do artigo: http://tutoriaisgnulinux.com/?p=15842
 
-Na configuração foi utilizado 2 nodes de ElasticSearch e 1 node de HAPROXY.
+Na configuração foi utilizado 2 nodes de ElasticSearch e 1 node de HAPROXY (CentOS 7.2).
 
-No momento estou realizando meus estudos de Puppet e achei interessante usar esse artigo para praticar
-a criação desse ambiente utilizando manifests.
+No momento estou realizando meus estudos de Puppet e achei interessante usar esse artigo para praticar a criação desse ambiente utilizando manifests.
 
 Eu utilizei os endereços de rede diferentes do Tutorial, então para utilizar o manifest 
 será necessário alterar as variáveis iniciais do arquivo: "elasticsearch_cluster.pp" realizando as alterações de acordo com o seu ambiente.
